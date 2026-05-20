@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import BodyCards from './components/Bodycards'
-
+import Banner from './components/Banner'
 
 
 
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
      <div>
+      <Banner/>
       <BodyCards/>
      </div>
     </>
