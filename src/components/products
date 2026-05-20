@@ -1,0 +1,24 @@
+
+
+
+const products = [
+{
+        id: 1,
+        title: "Gorra Adidas",
+        color: "Negro",
+        image: "/images/products/gorra-nike.avif" 
+    }, 
+    {
+        id: 2,
+        title: "Remera Adidas Sport",
+        color: "Negro",
+        image: "/images/products/remera-adidas-negra.jpg"
+    }, 
+    {
+        id: 3,
+        title: "Zapatos Puma",
+        color: "Blanco",
+        image: "/images/products/zapatos-puma.webp"
+    }
+]
+export default products; 
