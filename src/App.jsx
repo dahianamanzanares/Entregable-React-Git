@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import BodyCards from './components/Bodycards'
 import Banner from './components/Banner'
-
+import Navbar from './components/Navbar'
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
      <div>
+      <Navbar/>
       <Banner/>
       <BodyCards/>
      </div>
