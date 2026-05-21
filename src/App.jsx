@@ -3,6 +3,7 @@ import './App.css'
 import BodyCards from './components/Bodycards'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
+import Footer from './components/footer'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <BodyCards/>
+      <Footer/>
      </div>
     </>
   )
