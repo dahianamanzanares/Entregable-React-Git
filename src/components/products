@@ -4,9 +4,9 @@
 const products = [
 {
         id: 1,
-        title: "Gorra Adidas",
+        title: "Gorro de Natación Nike",
         color: "Negro",
-        image: "/images/products/gorra-nike.avif" 
+        image: "/images/products/gorro-nike-negro.jpg" 
     }, 
     {
         id: 2,
@@ -16,9 +16,25 @@ const products = [
     }, 
     {
         id: 3,
-        title: "Zapatos Puma",
+        title: "Zapatillas Puma",
         color: "Blanco",
-        image: "/images/products/zapatos-puma.webp"
+        image: "/images/products/zapatillas-puma-blancas.png"
+    },
+    {
+        id: 4,
+        title: "Pantalon Puma Negro",
+        color: "Blanco",
+        image: "/images/products/pantalon-puma-negro.jpg"
+    },{
+        id: 5,
+        title: "Botines de Fútbol Nike",
+        color: "Blanco",
+        image: "/images/products/championes-nike.jpg"
+    },{
+        id: 6,
+        title: "Botines de Fútbol Umbro",
+        color: "Blanco",
+        image: "/images/products/championes-umbro.jpg"
     }
 ]
 export default products; 
