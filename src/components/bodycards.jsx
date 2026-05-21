@@ -11,7 +11,7 @@ const BodyCards = () => {
                     <h2 className="display-6 fw-normal mt-2 text-dark">Destacados de la Temporada</h2>
                 </div>
             </div>
-            <div className="row contenedor-de-cards">
+            <div className="row g-4 contenedor-de-cards ">
                 {products.map((elProducto) =>(
                     <Card
                     key= {elProducto.id}
