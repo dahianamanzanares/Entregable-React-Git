@@ -9,9 +9,9 @@ const Card = (propiedades) => {
         <div className="bg-light overflow-hidden" style={{ aspectRatio: '3/4' }}>
           <img src={image} className="card-img-top w-100 h-100 object-fit-cover" alt={title} />
         </div>
-        <div className="card-body px-0 pt-3">
-          <p className="text-muted text-uppercase fw-semibold l-spacing small mb-1">{color}</p>
-          <h5 className="card-title fw-normal text-dark mb-2">{title}</h5>
+        <div className="card-body px-0 pt-3 bg-dark">
+          <h5 className="card-title fw-normal text-light mb-2">{title}</h5>
+          <p className="text-light text-uppercase fw-semibold l-spacing small mb-1 ">{color}</p>
         </div>
         </div>
     </div>
